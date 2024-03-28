@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <style>
+    body{
+    background: #000;
+        color: darkcyan;
+        padding: 2px;
+    }
+    .h{
+        background-color: aquamarine;
+    }
+    .I{
+        background-color: rgb(124, 207, 224);
+    }
+    .G{
+        background-color: rgb(55, 56, 54);
+        
+    }
+    .H{
+        background-color:crimson;
+    }
+   
+  </style>
+  <div class="H">
+  <h1>ShopItnow.COM</h1>
+</div>
+  <body style="height: 1500px">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">ShopItnow</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Fruits & vegetables</a></li>
+          <li><a href="#">Household goods</a></li>
+          <li><a href="#">Baby care</a></li>
+         
+        </ul>
+      </div>
+    </nav>
+    
+
+    <div class="container" style="margin-top: 50px">
+      <h3>ShopItnow.COM</h3>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+
+    <h1 class="h">Welcome to Online Shoping</h1>
+    <div class="container">
+      <h2 class="I">ITEMS</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img
+              src="https://miro.medium.com/max/1200/0*WKr5tRzykYjW22XZ.jpeg"
+              alt="Los Angeles"
+              style="width: 200%"
+            />
+          </div>
+
+          <div class="item">
+            <img
+              src="https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-2foodgroups_vegetables_detailfeature.jpg?sfvrsn=226f1bc7_6"
+              alt="Chicago"
+              style="width: 200%"
+            />
+          </div>
+
+          <div class="item">
+            <img
+              src="https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/04/29/Pictures/_767447c4-2cda-11e7-a28f-c563b2540923.jpg"
+              alt="New york"
+              style="width: 200%"
+            />
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-warning">OFFERS</button>
+        <button type="button" class="btn btn-danger">BUY MORE & SAVE MORE</button>
+        <button type="button" class="btn btn-primary">DEALS</button>
+    </div>
+    <h3>BEVERAGES</h3>
+    <div>
+    <img src="https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/05/20204137/shutterstock_1284082165-1.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+    <img src="https://cdn.siasat.com/wp-content/uploads/2022/04/Mangoes.png" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+    <img src="https://as1.ftcdn.net/v2/jpg/01/06/68/88/1000_F_106688812_rVoRFXazgIMEUJdvffG9p0XvP8Lntf0a.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+    <div class="btn-group">
+        <button type="button" class="btn btn-danger">Onion Price(500rs/kg)</button>
+        <button type="button" class="btn btn-secondary">Mango price(600rs/kg)</button>
+        <button type="button" class="btn btn-primary">Milk Price(100rs/kg)</button>
+      </div>
+    </div>
+    <h3>NON-VEG</h3>
+    <div>
+    <img src="https://www.kwalitychicken.com/wp-content/uploads/2022/04/Images-01-min.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+    <img src="https://m.economictimes.com/thumb/msid-94857105,width-1200,height-900,resizemode-4,imgsize-227384/fish-lead-story-.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+    <img src="https://www.seriouseats.com/thmb/RLhIA1_2ZVdLa-uPVV9YRt75g20=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__07__20170728-sunny-side-up-eggs-vicky-wasik-d07c5480d72e49cc85689c1d6d88495e.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+    <div class="btn-group">
+        <button type="button" class="btn btn-danger">chicken price(1000rs/kg)</button>
+        <button type="button" class="btn btn-secondary">Fish price(600rs/kg)</button>
+        <button type="button" class="btn btn-primary">Egg Price(8rs/1egg)</button>
+      </div>
+      <h3>FAST FOOD/OIL</h3>
+      <div>
+      <img src="https://images.freekaamaal.com/post_images/1600942117.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+      <img src="https://images.squarespace-cdn.com/content/v1/570b9bd42fe131a6e20717c2/1525244323178-ZOBA6N6J6DRC3DR5S3HP/Kurkure_Packaging_Elephant+Design+11.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+      <img src="https://blog-images-1.pharmeasy.in/2020/08/29162604/A-collection-of-essential-oils.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+      <div class="btn-group">
+          <button type="button" class="btn btn-danger"> Coldrink(1000rs/kg)</button>
+          <button type="button" class="btn btn-secondary">kurkure price(600rs/kg)</button>
+          <button type="button" class="btn btn-primary">oil Price(10rs)</button>
+        </div>
+        <h3>Daily Use</h3>
+        <img src="https://www.nextechagrisolutions.com/blog/wp-content/uploads/2015/12/Different-Types-of-Pulses-1200x412.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+      <img src="https://img.onmanorama.com/content/dam/mm/en/kerala/top-news/images/2022/8/19/rice.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+      <img src="https://cdn.shopify.com/s/files/1/0173/7644/4470/articles/aashirvaad-fluffy-roti.jpg?v=1619017092" alt="Cinque Terre" width="304" height="236"> 
+      <div class="btn-group">
+          <button type="button" class="btn btn-danger"> Dal/Pulses price(1000rs/kg)</button>
+          <button type="button" class="btn btn-secondary">Rice price(600rs/kg)</button>
+          <button type="button" class="btn btn-primary">Ashirvad Aata Price(150rs/5Kg)</button>
+                
+        </div>
+        <div class="G">
+            <h2>Info</h2>
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Name</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Address</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" name="remember"> Confirm to Buy</label>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+  </body>
+</html>
